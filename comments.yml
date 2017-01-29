@@ -1,0 +1,11 @@
+---
+1: !ruby/object:Comment
+  name: "Сергей"
+  comment: "Молодец, так держать!"
+  time: 2017-01-29   в  21:34:53
+  id: 1
+2: !ruby/object:Comment
+  name: "Юрий"
+  comment: "Смелая!"
+  time: 2017-01-29   в  21:42:39
+  id: 2

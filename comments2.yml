@@ -1,0 +1,11 @@
+---
+1: !ruby/object:Comment
+  name: "Андрей"
+  comment: "Отличная программа."
+  time: 2017-01-29   в  21:35:21
+  id: 1
+2: !ruby/object:Comment
+  name: "Владимир"
+  comment: "Тяжело в ученье."
+  time: 2017-01-29   в  21:43:10
+  id: 2

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Comment - <%=@comm.name %></title>
+  </head>
+  <body>
+    <h1><%= @comm.name %></h1>
+    <table>
+      <tr>
+        <td><strong>Name:</strong></td>
+        <td><%= @comm.name %></td>
+      </tr>
+      <tr>
+        <td><strong>Comment:</strong></td>
+        <td><%= @comm.comment %></td>
+      </tr>
+      <tr>
+        <td><strong>Time:</strong></td>
+        <td><%= @comm.time %></td>
+      </tr>
+    </table>
+    <a href="/first_reccording">Back to Index</a>
+  </body>
+</html>
