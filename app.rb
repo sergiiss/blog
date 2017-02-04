@@ -1,6 +1,6 @@
 require 'sinatra'
-require 'comment'
-require 'comment_store'
+require_relative 'lib/comment'
+require_relative 'lib/comment_store'
 
 store = CommentStore.new('comments.yml')
 store2 = CommentStore.new('comments2.yml')
@@ -42,7 +42,7 @@ post('/second_recording/create') do
   @comm.comment = params['comment']
   @comm.time = Time.now
   @comm.time = (@comm.time).to_s
-  @comm.time = (@comm.time)[0..10] + "  в  " + (@comm.time)[11..-7]
+  @comm.time = (@comm.time)[0..10] + '  в  ' + (@comm.time)[11..-7]
   store2.save(@comm)
   redirect '/second_recording'
 end
